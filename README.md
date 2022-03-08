@@ -1,5 +1,4 @@
-# Astrobrowser & Astrosearch From Astromari
-
+# Astrobrowser & Astrosearch
 
 ## Overview
 
