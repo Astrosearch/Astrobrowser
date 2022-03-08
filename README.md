@@ -1,29 +1,29 @@
-# Brave Browser
+# Astrobrowser & Astrosearch From Astromari
 
 
 ## Overview
 
-This repository holds the build tools needed to build the Brave desktop browser for macOS, Windows, and Linux.  In particular, it fetches and syncs code from the projects defined in `package.json` and `src/brave/DEPS`:
+This repository holds the build tools needed to build the Astrobrowser desktop for macOS, Windows, and Linux.  In particular, it fetches and syncs code from the projects defined in `package.json` and `src/astro/DEPS`:
 
   - [Chromium](https://chromium.googlesource.com/chromium/src.git)
     - Fetches code via `depot_tools`.
     - sets the branch for Chromium (ex: 65.0.3325.181).
-  - [brave-core](https://github.com/brave/brave-core)
-    - Mounted at `src/brave`.
+  - [astro-core](https://github.com/astrosearch/astrobrowser)
+    - Mounted at `src/astro`.
     - Maintains patches for 3rd party Chromium code.
-  - [adblock-rust](https://github.com/brave/adblock-rust)
-    - Implements Brave's ad-block engine.
-    - Linked through [brave/adblock-rust-ffi](https://github.com/brave/brave-core/tree/master/components/adblock_rust_ffi).
+  - [adblock-rust](https://github.com/astro/adblock-rust)
+    - Implements astro's ad-block engine.
+    - Linked through [astro/adblock-rust-ffi](https://github.com/astro/astro-core/tree/master/components/adblock_rust_ffi).
 
 ## Downloads
 
-You can [visit our website](https://brave.com/download) to get the latest stable release.
+You can [visit our website](https://astro.com/download) to get the latest stable release.
 
 ## Other repositories
 
 For other versions of our browser, please see:
 
-* iOS - [brave/brave-ios](https://github.com/brave/brave-ios)
+* iOS - [astro/astro-ios](https://github.com/astro/astro-ios)
 
 ## Contributing
 
@@ -31,12 +31,12 @@ Please see the [contributing guidelines](./CONTRIBUTING.md).
 
 ## Community
 
-[Join the Q&A community](https://community.brave.com/) if you'd like to get more involved with Brave. You can [ask for help](https://community.brave.com/c/support-and-troubleshooting),
-[discuss features you'd like to see](https://community.brave.com/c/brave-feature-requests), and a lot more. We'd love to have your help so that we can continue improving Brave.
+[Join the Q&A community](https://community.astrosearch.com/) if you'd like to get more involved with Astrosearch. You can [ask for help](https://community.astrosearch.com/c/support-and-troubleshooting),
+[discuss features you'd like to see](https://community.astrosearch.com/c/astrosearch-feature-requests), and a lot more. We'd love to have your help so that we can continue improving Astrosearch.
 
-Help us translate Brave to your language by submitting translations at https://www.transifex.com/brave/brave/.
+Help us translate Astrosearch to your language by submitting translations at https://www.transifex.com/brave/brave/.
 
-Follow [@brave](https://twitter.com/brave) on Twitter for important news and announcements.
+Follow [@Atromari](https://twitter.com/astromari_) on Twitter for important news and announcements.
 
 ## Install prerequisites
 
