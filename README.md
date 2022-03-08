@@ -50,8 +50,8 @@ Follow the instructions for your platform:
 Once you have the prerequisites installed, you can get the code and initialize the build environment.
 
 ```bash
-git clone git@github.com:brave/brave-browser.git
-cd brave-browser
+git clone https://github.com/Astrosearch/Astrobrowser
+cd Astrobrowser
 npm install
 
 # this takes 30-45 minutes to run
@@ -67,7 +67,7 @@ npm config set target_os android
 npm config set target_arch arm
 ```
 
-## Build Brave
+## Build Astrobrowser
 The default build type is component.
 
 ```
@@ -102,12 +102,12 @@ npm run build -- Debug
 
 Brave staff may also want to try [Goma](https://github.com/brave/devops/wiki/Faster-browser-builds#goma) for faster builds.
 
-## Run Brave
+## Run Astrobrowser
 To start the build:
 
 `npm start [Release|Component|Static|Debug]`
 
-# Update Brave
+# Update Astrobrowser
 
 `npm run sync -- [--force] [--init] [--create] [brave_core_ref]`
 
