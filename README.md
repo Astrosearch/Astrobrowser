@@ -7,7 +7,7 @@ This repository holds the build tools needed to build the Astrobrowser desktop f
   - [Chromium](https://chromium.googlesource.com/chromium/src.git)
     - Fetches code via `depot_tools`.
     - sets the branch for Chromium (ex: 65.0.3325.181).
-  - [astro-core](https://github.com/Astrosearch/Astrosearch-core)
+  - [Astrosearch-core](https://github.com/Astrosearch/Astrosearch-core)
     - Mounted at `src/astro`.
     - Maintains patches for 3rd party Chromium code.
   - [adblock-rust](https://github.com/Astrosearch/adblock-rust)
@@ -41,9 +41,9 @@ Follow [@Atromari](https://twitter.com/astromari_) on Twitter for important news
 
 Follow the instructions for your platform:
 
-- [macOS](https://github.com/brave/brave-browser/wiki/macOS-Development-Environment)
-- [Windows](https://github.com/brave/brave-browser/wiki/Windows-Development-Environment)
-- [Linux/Android](https://github.com/brave/brave-browser/wiki/Linux-Development-Environment)
+- [macOS](https://github.com/Astrosearch/Astrobrowser/wiki/macOS-Development-Environment)
+- [Windows](https://github.com/Astrosearch/Astrobrowser/wiki/Windows-Development-Environment)
+- [Linux/Android](https://github.com/Astrosearch/Astrobrowser/wiki/Linux-Development-Environment)
 
 ## Clone and initialize the repo
 
@@ -100,7 +100,7 @@ To run a debug build (Component build with is_debug=true):
 npm run build -- Debug
 ```
 
-Brave staff may also want to try [Goma](https://github.com/brave/devops/wiki/Faster-browser-builds#goma) for faster builds.
+Brave staff may also want to try [Goma](https://github.com/Astrosearch/devops/wiki/Faster-browser-builds#goma) for faster builds.
 
 ## Run Astrobrowser
 To start the build:
@@ -177,4 +177,4 @@ brave-browser> npm run apply_patches
 
 # Troubleshooting
 
-See [Troubleshooting](https://github.com/brave/brave-browser/wiki/Troubleshooting) for solutions to common problems.
+See [Troubleshooting](https://github.com/Astrosearch/Astrobrowser/wiki/Troubleshooting) for solutions to common problems.
