@@ -7,22 +7,22 @@ This repository holds the build tools needed to build the Astrobrowser desktop f
   - [Chromium](https://chromium.googlesource.com/chromium/src.git)
     - Fetches code via `depot_tools`.
     - sets the branch for Chromium (ex: 65.0.3325.181).
-  - [astro-core](https://github.com/astrosearch/astrobrowser)
+  - [astro-core](https://github.com/Astrosearch/Astrosearch-core)
     - Mounted at `src/astro`.
     - Maintains patches for 3rd party Chromium code.
-  - [adblock-rust](https://github.com/astro/adblock-rust)
+  - [adblock-rust](https://github.com/Astrosearch/adblock-rust)
     - Implements astro's ad-block engine.
-    - Linked through [astro/adblock-rust-ffi](https://github.com/astro/astro-core/tree/master/components/adblock_rust_ffi).
+    - Linked through [astro/adblock-rust-ffi](https://github.com/Astrosearch/Astrosearch-core/tree/master/components/adblock_rust_ffi).
 
 ## Downloads
 
-You can [visit our website](https://astro.com/download) to get the latest stable release.
+You can [visit our website](https://astrosearch.com/download) to get the latest stable release.
 
 ## Other repositories
 
 For other versions of our browser, please see:
 
-* iOS - [astro/astro-ios](https://github.com/astro/astro-ios)
+* iOS - [Astrosearch/Astrobrowser-ios](https://github.com/Astrosearch/Astrobrowser-ios)
 
 ## Contributing
 
